@@ -31,7 +31,7 @@
 ### Send Transaction - Dowloand and open my crypto
 
 
-*Set up a custom node with node and network name "kikinet", network "Custom", currency "ETH", and chain ID 2424. URL: http://127.0.0.1.8545
+* Set up a custom node with node and network name "kikinet", network "Custom", currency "ETH", and chain ID 2424. URL: http://127.0.0.1.8545 and then click "Save & Use Custom Node"
 
 
 * Then click on "view and sent" and upload your keystore file in the NodeA folder and type the password "pup123" 
