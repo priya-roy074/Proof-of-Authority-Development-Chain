@@ -1,0 +1,35 @@
+=============== Feb 10, 2021 (EST) ===============
+14:26:05.738316 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:26:05.789522 db@open opening
+14:26:05.791514 version@stat F·[] S·0B[] Sc·[]
+14:26:05.823189 db@janitor F·2 G·0
+14:26:05.823189 db@open done T·33.6672ms
+14:45:14.662002 db@close closing
+14:45:14.662989 db@close done T·986.6µs
+=============== Feb 10, 2021 (EST) ===============
+14:46:22.140011 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:46:22.141040 version@stat F·[] S·0B[] Sc·[]
+14:46:22.141040 db@open opening
+14:46:22.141040 journal@recovery F·1
+14:46:22.142997 journal@recovery recovering @1
+14:46:22.176214 memdb@flush created L0@2 N·5753 S·127KiB "loc..seq,v5412":"version,v1"
+14:46:22.178230 version@stat F·[1] S·127KiB[127KiB] Sc·[0.25]
+14:46:22.244658 db@janitor F·3 G·0
+14:46:22.244658 db@open done T·103.6182ms
+14:48:20.226034 db@close closing
+14:48:20.226213 db@close done T·410.3µs
+=============== Feb 10, 2021 (EST) ===============
+14:49:44.310338 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:49:44.311776 version@stat F·[1] S·127KiB[127KiB] Sc·[0.25]
+14:49:44.311776 db@open opening
+14:49:44.311776 journal@recovery F·1
+14:49:44.314595 journal@recovery recovering @3
+14:49:44.344804 memdb@flush created L0@5 N·327 S·11KiB "loc..seq,v5764":"n:\xf9..ong,v5852"
+14:49:44.347794 version@stat F·[2] S·138KiB[138KiB] Sc·[0.50]
+14:49:44.440435 db@janitor F·4 G·0
+14:49:44.440435 db@open done T·128.6584ms
+14:49:44.464423 table@compaction L0·2 -> L1·0 S·138KiB Q·6083
+14:49:44.492341 table@build created L1@8 N·2626 S·92KiB "loc..seq,v5764":"version,v1"
+14:49:44.492341 version@stat F·[0 1] S·92KiB[0B 92KiB] Sc·[0.00 0.00]
+14:49:44.537921 table@compaction committed F-1 S-45KiB Ke·0 D·3454 T·73.4974ms
+14:49:44.538921 table@remove removed @2

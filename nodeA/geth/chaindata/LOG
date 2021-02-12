@@ -1,0 +1,41 @@
+=============== Feb 10, 2021 (EST) ===============
+14:22:01.011169 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:22:01.060681 db@open opening
+14:22:01.116663 version@stat F·[] S·0B[] Sc·[]
+14:22:01.159667 db@janitor F·2 G·0
+14:22:01.159667 db@open done T·98.9861ms
+14:22:01.232241 db@close closing
+14:22:01.233241 db@close done T·1.0005ms
+=============== Feb 10, 2021 (EST) ===============
+14:26:05.177521 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:26:05.178521 version@stat F·[] S·0B[] Sc·[]
+14:26:05.178521 db@open opening
+14:26:05.179514 journal@recovery F·1
+14:26:05.190477 journal@recovery recovering @1
+14:26:05.237022 memdb@flush created L0@2 N·15 S·1KiB "*\x9a\xe7..\x8ep\x1f,v4":"\xe0H\xbf..\xe7N\xa9,v5"
+14:26:05.245992 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:26:05.313618 db@janitor F·3 G·0
+14:26:05.313618 db@open done T·135.0962ms
+14:45:14.430770 db@close closing
+14:45:14.431267 db@close done T·496.9µs
+=============== Feb 10, 2021 (EST) ===============
+14:46:21.887756 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:46:21.890744 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:46:21.890744 db@open opening
+14:46:21.891586 journal@recovery F·1
+14:46:21.898831 journal@recovery recovering @3
+14:46:21.951475 memdb@flush created L0@5 N·12 S·945B "Dat..ion,v17":"r\x00\x00..\x05\"v,v23"
+14:46:21.957475 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:46:22.034436 db@janitor F·4 G·0
+14:46:22.034436 db@open done T·143.6918ms
+14:47:51.153840 db@close closing
+14:47:51.153840 db@close done T·0s
+=============== Feb 10, 2021 (EST) ===============
+14:49:44.089442 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:49:44.090444 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:49:44.090444 db@open opening
+14:49:44.091454 journal@recovery F·1
+14:49:44.103396 journal@recovery recovering @6
+14:49:44.111555 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:49:44.218534 db@janitor F·4 G·0
+14:49:44.218534 db@open done T·128.0894ms
